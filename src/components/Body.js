@@ -2,6 +2,7 @@ import React from 'react'
 import Login from './Login'
 import Browse from './Browse'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import GptSearch from './GptSearch'
 
 
 const Body = () => {    
@@ -21,7 +22,7 @@ const Body = () => {
 
 
   return (
-    <div>
+    <div >
       <RouterProvider router={appRouter}/>
     </div>
   )
